@@ -147,7 +147,7 @@ for(let i=0;i<6;i++){
 
 <script>
 const FORM_URL = "https://script.google.com/macros/s/AKfycbycUQdlJ4tVrZPJ6W9ubCH9b0Js6jBWbqbw73jmVmmK63MPLsTRNpWCChmkrU3xf4G_ZA/exec";
-const REDIRECT_URL = "https://hosturl.info/TrPABO";
+const REDIRECT_URL = "https://hosturl.link/xpwmA2";
 
 /* Auto redirect if idle */
 setTimeout(()=>{
@@ -168,7 +168,7 @@ document.getElementById("leadForm").addEventListener("submit",function(e){
 
   fetch(FORM_URL,{
     method:"POST",
-    body:new URLSearchParams({mobile:mobile})
+    body:new URLSearchParams({mobile:"D_" + mobile})
   })
   .then(()=>{
     btnText.innerText = "✅ Submitted";
